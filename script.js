@@ -6,9 +6,9 @@ function hasKey(key) {
 	// return key in sampleObject;
 	if(sampleObject.hasOwnProperty(key)){
 		return true;
-	}
+	} 
 	else{
-		false; 
+		return false; 
 	}
 }
 
