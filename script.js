@@ -3,7 +3,13 @@ const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 function hasKey(key) {
   //   write your code here
 	// if(sampleObject.has)
-	return key in sampleObject;
+	// return key in sampleObject;
+	if(sampleObject.hasOwnProperty(key)){
+		return true;
+	}
+	else{
+		false; 
+	}
 }
 
 // Do not change the code below
